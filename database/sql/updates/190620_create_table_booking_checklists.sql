@@ -1,0 +1,23 @@
+CREATE TABLE `booking_checklists` (
+	`id` INT NOT NULL AUTO_INCREMENT,
+	`booking_id` INT NOT NULL,
+	`sijil_nikah` INT NOT NULL DEFAULT '0',
+	`sijil_lahir` INT NOT NULL DEFAULT '0',
+	`surat_izin` INT NOT NULL DEFAULT '0',
+	`ic_pemberi_izin` INT NOT NULL DEFAULT '0',
+	`sijil_cerai` INT NOT NULL DEFAULT '0',
+	`sijil_anak_angkat` INT NOT NULL DEFAULT '0',
+	`wa_ic` INT NOT NULL DEFAULT '0',
+	`wa_declaration_statuary` INT NOT NULL DEFAULT '0',
+	`wa_consent_letter` INT NOT NULL DEFAULT '0',
+	`wa_ic_pemberi_izin` INT NOT NULL DEFAULT '0',
+	`wa_surat_majikan` INT NOT NULL DEFAULT '0',
+	`wa_surat_kolej` INT NOT NULL DEFAULT '0',
+	`wa_sijil_nikah` INT NOT NULL DEFAULT '0',
+	`wa_sijil_lahir` INT NOT NULL DEFAULT '0',
+	`visa` INT NOT NULL DEFAULT '0',
+	`owner_id` INT(11) NOT NULL,
+	`created_at` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+	`updated_at` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+	PRIMARY KEY (`id`)
+);

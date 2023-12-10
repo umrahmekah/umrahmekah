@@ -1,0 +1,2 @@
+ALTER TABLE `tour_date`
+	ADD COLUMN `policy` VARCHAR(225) NULL DEFAULT NULL AFTER `color`;

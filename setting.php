@@ -1,0 +1,38 @@
+<?php
+
+define('CNF_APPNAME', 'Oomrah');
+define('CNF_APPDESC', 'Good Travel Tour Management');
+define('CNF_COMNAME', 'Harmony Excellence Holidays');
+define('CNF_ADDRESS', 'No. 1&5, Jalan Wangsa Melawati 4, Wangsa Melawati, 53300 Kuala Lumpur, Malaysia');
+define('CNF_TEL', '+6019-241200');
+define('CNF_EMAIL', 'admin@harmoni2u.com');
+define('CNF_FACEBOOK', 'https://www.facebook.com/harmonyexcellence');
+define('CNF_TWITTER', '');
+define('CNF_INSTAGRAM', 'https://www.instagram.com/harmonytraveler/');
+define('CNF_TRIPADVISOR', '');
+define('CNF_TAGLINE', 'Kembara Taubat Di Bumi Anbiya');
+define('CNF_TEMPCOLOR', 'green');
+define('CNF_METAKEY', 'Umrah, Tour, Travel Agent');
+define('CNF_METADESC', 'Tour made simple');
+define('CNF_GROUP', '6');
+define('CNF_ACTIVATION', 'confirmation');
+define('CNF_MAINTENANCE', '');
+define('CNF_SHOWHELP', 'ON');
+define('CNF_MULTILANG', '1');
+define('CNF_LANG', 'en');
+define('CNF_REGIST', 'true');
+define('CNF_FRONT', 'true');
+define('CNF_RECAPTCHA', 'false');
+define('CNF_THEME', 'leo');
+define('CNF_RECAPTCHAPUBLICKEY', '');
+define('CNF_RECAPTCHAPRIVATEKEY', '');
+define('CNF_MODE', 'production');
+define('CNF_LOGO', 'logo.png');
+define('CNF_HEADERIMAGE', 'header.jpg');
+define('CNF_ALLOWIP', '');
+define('CNF_RESTRICIP', '');
+define('CNF_MAIL', 'swift');
+define('CNF_DATE', 'M d Y');
+define('CNF_APIKEY', '');
+define('CNF_CALENDARID', ' ');
+define('CNF_ANALYTICS', 'UA-XXXXX-X');

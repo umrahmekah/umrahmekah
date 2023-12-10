@@ -1,0 +1,8 @@
+CREATE TABLE `piform_remarks` (
+	`id` INT UNSIGNED NOT NULL AUTO_INCREMENT,
+	`pi_form_id` INT NOT NULL,
+	`remark` VARCHAR(225) NULL DEFAULT NULL,
+	`entry_by` INT NULL DEFAULT NULL,
+	`owner_id` INT NULL DEFAULT NULL,
+	PRIMARY KEY (`id`)
+);

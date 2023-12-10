@@ -1,0 +1,2 @@
+ALTER TABLE `tours`
+	ADD COLUMN `type` TINYINT(1) NOT NULL DEFAULT '1' AFTER `status`;

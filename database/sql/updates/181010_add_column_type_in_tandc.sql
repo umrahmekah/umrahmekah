@@ -1,0 +1,2 @@
+ALTER TABLE `termsandconditions`
+	ADD COLUMN `type` INT(11) NULL DEFAULT '1' AFTER `status`;

@@ -1,0 +1,2 @@
+ALTER TABLE `travellers`
+	ADD COLUMN `NRIC` VARCHAR(30) NULL DEFAULT NULL AFTER `passportno`;

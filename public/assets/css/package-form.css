@@ -1,0 +1,14 @@
+.custom{
+display: block;
+height: 100px;
+margin: auto;
+}
+
+.departure{
+color:black !important;
+padding:0 !important;
+}
+
+.baggage-form{
+	padding: 0 !important;
+}

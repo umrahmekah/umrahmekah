@@ -1,0 +1,2 @@
+ALTER TABLE `tours`
+	ADD COLUMN `b2b` INT(11) NULL DEFAULT '0' AFTER `cost_child`;

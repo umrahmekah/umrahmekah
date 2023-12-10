@@ -1,0 +1,11 @@
+{
+	"name"		:"Simple",
+	"folder"	:"leo",
+	"author"	:"Oomrah",
+	"template"	:{
+					"Default Page"		: "page",
+                    "Side Bar Page"		: "sidebar",
+					"Full Page"			: "fullpage",
+					"Backend Template"	: "backend"
+				}
+}

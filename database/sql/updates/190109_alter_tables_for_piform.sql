@@ -1,0 +1,22 @@
+ALTER TABLE `pi_forms`
+	ADD COLUMN `created_at` TIMESTAMP NULL DEFAULT NULL AFTER `owner_id`,
+	ADD COLUMN `updated_at` TIMESTAMP NULL DEFAULT NULL AFTER `created_at`;
+ALTER TABLE `accomodations`
+	ADD COLUMN `created_at` TIMESTAMP NULL DEFAULT NULL AFTER `owner_id`,
+	ADD COLUMN `updated_at` TIMESTAMP NULL DEFAULT NULL AFTER `created_at`;
+ALTER TABLE `ziarahs`
+	ADD COLUMN `created_at` TIMESTAMP NULL DEFAULT NULL AFTER `owner_id`,
+	ADD COLUMN `updated_at` TIMESTAMP NULL DEFAULT NULL AFTER `created_at`;
+ALTER TABLE `transportations`
+	ADD COLUMN `created_at` TIMESTAMP NULL DEFAULT NULL AFTER `owner_id`,
+	ADD COLUMN `updated_at` TIMESTAMP NULL DEFAULT NULL AFTER `created_at`;
+ALTER TABLE `local_contacts`
+	ADD COLUMN `created_at` TIMESTAMP NULL DEFAULT NULL AFTER `owner_id`,
+	ADD COLUMN `updated_at` TIMESTAMP NULL DEFAULT NULL AFTER `created_at`;
+ALTER TABLE `piform_remarks`
+	ADD COLUMN `created_at` TIMESTAMP NULL DEFAULT NULL AFTER `owner_id`,
+	ADD COLUMN `updated_at` TIMESTAMP NULL DEFAULT NULL AFTER `created_at`;
+ALTER TABLE `ziarahs`
+	CHANGE COLUMN `time` `time` VARCHAR(50) NULL DEFAULT NULL AFTER `date`;
+ALTER TABLE `transportations`
+	CHANGE COLUMN `time` `time` VARCHAR(50) NULL DEFAULT NULL AFTER `date`;

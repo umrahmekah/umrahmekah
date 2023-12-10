@@ -1,0 +1,15 @@
+CREATE TABLE `task` (
+	`id` INT(11) NOT NULL AUTO_INCREMENT,
+	`created_at` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+	`updated_at` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+	`task_name` VARCHAR(100) NOT NULL,
+	`description` VARCHAR(300) NOT NULL,
+	`owner_id` INT(11) UNSIGNED NOT NULL,
+	`due_date` DATE NOT NULL,
+	`assigner_id` INT(11) NOT NULL,
+	`assigned_id` INT(11) NOT NULL,
+	`entry_by` INT(11) NOT NULL,
+	`tour_date_id` INT(11) NOT NULL,
+	`status` INT(11) NOT NULL,
+	PRIMARY KEY (`id`)
+);

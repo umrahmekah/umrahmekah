@@ -1,0 +1,13 @@
+{
+	"name"		: "Blue Ocean",
+	"folder"	: "blue-ocean",
+	"author"	: "Nasrul Hazim <nasrulhazim.m@gmail.com>",
+	"template"	:
+	{
+		"Default Page"		: "page",
+        "Side Bar Page"		: "sidebar",
+		"Full Page"			: "fullpage",
+		"Backend Template"	: "backend",
+		"Gallery"           : "gallery"
+	}
+}
